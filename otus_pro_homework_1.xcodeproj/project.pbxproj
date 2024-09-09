@@ -11,6 +11,11 @@
 		E20DB8102C8EC27E009AC53A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB80F2C8EC27E009AC53A /* ContentView.swift */; };
 		E20DB8122C8EC280009AC53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20DB8112C8EC280009AC53A /* Assets.xcassets */; };
 		E20DB8152C8EC280009AC53A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20DB8142C8EC280009AC53A /* Preview Assets.xcassets */; };
+		E20DB81C2C8EC353009AC53A /* FirstTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB81B2C8EC353009AC53A /* FirstTabScreen.swift */; };
+		E20DB81E2C8EC365009AC53A /* SecondTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB81D2C8EC365009AC53A /* SecondTabScreen.swift */; };
+		E20DB8202C8EC376009AC53A /* ThirdTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB81F2C8EC376009AC53A /* ThirdTabScreen.swift */; };
+		E20DB8242C8EF209009AC53A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB8232C8EF209009AC53A /* Coordinator.swift */; };
+		E20DB8282C8F1A19009AC53A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB8272C8F1A19009AC53A /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E20DB80F2C8EC27E009AC53A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E20DB8112C8EC280009AC53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20DB8142C8EC280009AC53A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E20DB81B2C8EC353009AC53A /* FirstTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabScreen.swift; sourceTree = "<group>"; };
+		E20DB81D2C8EC365009AC53A /* SecondTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabScreen.swift; sourceTree = "<group>"; };
+		E20DB81F2C8EC376009AC53A /* ThirdTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabScreen.swift; sourceTree = "<group>"; };
+		E20DB8232C8EF209009AC53A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E20DB8272C8F1A19009AC53A /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				E20DB80D2C8EC27E009AC53A /* otus_pro_homework_1App.swift */,
 				E20DB80F2C8EC27E009AC53A /* ContentView.swift */,
+				E20DB81B2C8EC353009AC53A /* FirstTabScreen.swift */,
+				E20DB81D2C8EC365009AC53A /* SecondTabScreen.swift */,
+				E20DB81F2C8EC376009AC53A /* ThirdTabScreen.swift */,
 				E20DB8112C8EC280009AC53A /* Assets.xcassets */,
 				E20DB8132C8EC280009AC53A /* Preview Content */,
+				E20DB8232C8EF209009AC53A /* Coordinator.swift */,
+				E20DB8272C8F1A19009AC53A /* TextView.swift */,
 			);
 			path = otus_pro_homework_1;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20DB8102C8EC27E009AC53A /* ContentView.swift in Sources */,
+				E20DB81C2C8EC353009AC53A /* FirstTabScreen.swift in Sources */,
 				E20DB80E2C8EC27E009AC53A /* otus_pro_homework_1App.swift in Sources */,
+				E20DB8282C8F1A19009AC53A /* TextView.swift in Sources */,
+				E20DB8202C8EC376009AC53A /* ThirdTabScreen.swift in Sources */,
+				E20DB81E2C8EC365009AC53A /* SecondTabScreen.swift in Sources */,
+				E20DB8242C8EF209009AC53A /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
